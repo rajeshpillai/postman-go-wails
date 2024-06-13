@@ -1,4 +1,4 @@
-// main.js
+import './style.css';
 
 async function invoke(method, params) {
     return window.backend[method](params);
