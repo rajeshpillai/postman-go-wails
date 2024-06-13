@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "postman-go-wails",
+  "outputfilename": "postman-go-wails",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Rajesh Pillai",
+    "email": "pillai.rajesh@gmail.com"
+  }
+}
